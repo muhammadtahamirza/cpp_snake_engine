@@ -1,0 +1,43 @@
+# Build directory
+build/
+out/
+cmake-build-*/
+
+# FetchContent-downloaded libraries (re-fetched automatically on build)
+libraries/
+
+# CMake generated files (in case any leak outside build/)
+CMakeCache.txt
+CMakeFiles/
+CMakeScripts/
+Testing/
+Makefile
+cmake_install.cmake
+install_manifest.txt
+compile_commands.json
+CTestTestfile.cmake
+_deps/
+
+# Compiled binaries / object files
+*.o
+*.obj
+*.exe
+*.out
+*.a
+*.so
+*.dll
+*.dylib
+
+# SSL certs / secrets (if you're using self-signed certs for dev)
+misc/*.pem
+misc/*.key
+
+# Editor / IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS junk
+.DS_Store
+Thumbs.db
